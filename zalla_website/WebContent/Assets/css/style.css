@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+:root
+{
+    /*color*/
+    --backgroundColor: #FFFFFF;
+    --primaryColor: #99A98F;
+    /* --navColor: #0C0C0C; */
+    /*font*/
+    --mainFont: 'Open Sans', sans-serif;
+    --headingFont: 'Merriweather', serif;
+    --spanFont: 'Poltawski Nowy', serif;
+    --useFont: 'Montserrat', sans-serif;
+}
+
+body{
+  font-family: var(--useFont);
+  background-color: var(--backgroundColor) !important;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: var(--primaryColor);
+  clip-path: circle(525px at top);
+}
+
+.wellcome{
+  width: 100%;
+  margin-top: 35rem;
+  padding-left: 8rem;
+  color: black;
+}
+
+.wellcome h2{
+  font-weight: 1000;
+  font-size: 2.5rem;
+}
+
+h6{
+  color: #919594;
+}
+
+form {
+  width: 55%;
+}
+
+.button-sign-in{
+  background: var(--primaryColor) ;
+  color: #FFFFFF;
+  height: 50px;
+}
+
+.button-sign-in:hover{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.circle img{
+  margin-top: 0px;
+  width: 97%;
+}
